@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Xyter',
   tagline: 'An multi-purpose bot',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://xyter.zyner.org',
   baseUrl: '/',
   projectName: 'xyter-docs',
   organizationName: 'ZynerOrg',
