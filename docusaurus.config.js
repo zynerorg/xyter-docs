@@ -77,8 +77,8 @@ const config = {
             title: 'Documentation',
             items: [
               {
-                label: 'Self-hosting',
-                to: '/docs/self-hosting',
+                label: 'On-Premise',
+                to: '/docs/on-premise',
               },
             ],
           },
