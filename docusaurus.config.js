@@ -26,13 +26,13 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/ZynerOrg/xyter-docs/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/ZynerOrg/xyter-docs/tree/main/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/ZynerOrg/xyter-docs/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/ZynerOrg/xyter-docs/tree/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
