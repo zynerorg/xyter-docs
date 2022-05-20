@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Xyter",
-  tagline: "An multi-purpose bot",
+  tagline: "A privacy-focused discord.js bot",
   url: "https://xyter.zyner.org",
   baseUrl: "/",
   projectName: "xyter-docs",

@@ -6,32 +6,31 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: "Easy to Use",
+    title: "Built for simplicity",
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        Xyter is built to provide you with one bot for your whole guild. <br />
-        <br />
-        All settings are available via <code>/settings</code> in discord.
+        Xyter is built for privacy and simplicity. By replacing all bots with one will make guilds less cluttered and easier to manage.
       </>
     ),
   },
   {
-    title: "Built with Typescript",
+    title: "TypeScript",
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        <b>We ❤️ open source</b> and Typescript makes it easier to understand
-        code and makes contributions easier and bug fixes easier.
+        By using TypeScript, the code is easier to understand and contribute to, bug fixes are easier to find too.
       </>
     ),
   },
   {
-    title: "On-premise is available",
+    title: "On-premise or Cloud",
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        If you would like to run it on-premise instead of us hosting it for you,
+        If you would like to run it on-premise instead of <Link className="text--warning" to="https://bot.zyner.org">
+          us hosting it for you
+        </Link>,
         then you can follow our{" "}
         <Link className="text--warning" to="https://github.com/ZynerOrg/xyter">
           this guide
