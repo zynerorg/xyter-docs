@@ -75,10 +75,13 @@ const config = {
         links: [
           {
             title: "Documentation",
-            items: [
+            items: [  {
+                label: "Cloud",
+                to: "/docs/hosting/cloud",
+              },
               {
                 label: "On-Premise",
-                to: "/docs/on-premise",
+                to: "/docs/hosting/on-premise",
               },
             ],
           },
