@@ -10,19 +10,17 @@ const FeatureList = [
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        Xyter is built to provide you with one bot for your whole guild. <br />
+        Xyter is built for privacy and to replace all bots with one, to make guilds less cluttered and easier to manage. <br />
         <br />
-        All settings are available via <code>/settings</code> in discord.
       </>
     ),
   },
   {
-    title: "Built with Typescript",
+    title: "Built with TypeScript",
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        <b>We ❤️ open source</b> and Typescript makes it easier to understand
-        code and makes contributions easier and bug fixes easier.
+        By using TypeScript, the code is easier to understand and contribute to, bug fixes are easier to find too.
       </>
     ),
   },
