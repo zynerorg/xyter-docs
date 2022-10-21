@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkxyter_docs=self.webpackChunkxyter_docs||[]).push([[713],{3457:function(e){e.exports=JSON.parse('{"welcome":{"allTagsPath":"/blog/tags","name":"welcome","count":1,"permalink":"/blog/tags/welcome"}}')}}]);
