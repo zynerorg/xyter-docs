@@ -17,9 +17,9 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://github.com/ZynerOrg/xyter"
+            to="/docs/flavors"
           >
-            We ❤️ open source
+            Getting Started
           </Link>
         </div>
       </div>
@@ -30,7 +30,7 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title={`Homepage`} description="An multi-purpose discord.js bot">
+    <Layout title={`Homepage`} description="A multi-purpose discord.js bot.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
