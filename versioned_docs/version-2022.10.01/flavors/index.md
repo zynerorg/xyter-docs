@@ -1,3 +1,3 @@
 # Flavors
 
-You could choose hosting it in cloud or on-premise.
+[Cloud](/docs/flavors/cloud) | [On-Premise](/docs/flavors/on-premise)
