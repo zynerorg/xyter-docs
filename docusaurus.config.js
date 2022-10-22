@@ -1,41 +1,39 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const lightCodeTheme = require('prism-react-renderer/themes/github');
+const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Xyter",
-  tagline: "A privacy-focused discord.js bot",
-  url: "https://xyter.zyner.org",
-  baseUrl: "/",
-  projectName: "xyter-docs",
-  organizationName: "ZynerOrg",
+  title: 'Xyter',
+  tagline: 'A privacy-focused discord.js bot',
+  url: 'https://xyter.zyner.org',
+  baseUrl: '/',
+  projectName: 'xyter-docs',
+  organizationName: 'ZynerOrg',
   trailingSlash: false,
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
-  favicon: "img/logo.png",
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/logo.png',
 
   presets: [
     [
-      "classic",
+      'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
+          sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/ZynerOrg/xyter-docs/tree/dev/",
+          editUrl: 'https://github.com/ZynerOrg/xyter-docs/tree/dev/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/ZynerOrg/xyter-docs/tree/dev/",
+          editUrl: 'https://github.com/ZynerOrg/xyter-docs/tree/dev/',
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
@@ -45,65 +43,72 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Xyter",
+        title: 'Xyter',
         logo: {
-          alt: "Xyter Logo",
-          src: "img/logo.png",
+          alt: 'Xyter Logo',
+          src: 'img/logo.png',
         },
         items: [
           {
-            type: "doc",
-            docId: "index",
-            position: "left",
-            label: "Documentation",
+            type: 'doc',
+            docId: 'index',
+            position: 'left',
+            label: 'Documentation',
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: '/blog', label: 'Blog', position: 'left' },
+
           {
-            href: "https://bot.zyner.org",
-            label: "Invite our bot",
-            position: "right",
+            type: 'docsVersionDropdown',
+            position: 'right',
+            dropdownActiveClassDisabled: true,
           },
           {
-            href: "https://github.com/ZynerOrg/xyter",
-            label: "GitHub",
-            position: "right",
+            href: 'https://bot.zyner.org',
+            label: 'Invite our bot',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/ZynerOrg/xyter',
+            label: 'GitHub',
+            position: 'right',
           },
         ],
       },
       footer: {
-        style: "dark",
+        style: 'dark',
         links: [
           {
-            title: "Documentation",
-            items: [  {
-                label: "Cloud",
-                to: "/docs/hosting/cloud",
+            title: 'Documentation',
+            items: [
+              {
+                label: 'Cloud',
+                to: '/docs/hosting/cloud',
               },
               {
-                label: "On-Premise",
-                to: "/docs/hosting/on-premise",
+                label: 'On-Premise',
+                to: '/docs/hosting/on-premise',
               },
             ],
           },
           {
-            title: "Community",
+            title: 'Community',
             items: [
               {
-                label: "Discord",
-                href: "https://discord.zyner.org",
+                label: 'Discord',
+                href: 'https://discord.zyner.org',
               },
             ],
           },
           {
-            title: "More",
+            title: 'More',
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: 'Blog',
+                to: '/blog',
               },
               {
-                label: "GitHub",
-                href: "https://github.com/ZynerOrg/xyter",
+                label: 'GitHub',
+                href: 'https://github.com/ZynerOrg/xyter',
               },
             ],
           },
