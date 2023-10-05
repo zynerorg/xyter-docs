@@ -63,13 +63,13 @@ const config = {
             dropdownActiveClassDisabled: true,
           },
           {
-            href: "https://bot.zyner.org",
+            href: "https://discord.com/api/oauth2/authorize?client_id=949998000401436673&permissions=8&scope=bot%20applications.commands",
             label: "Invite our bot",
             position: "right",
           },
           {
-            href: "https://github.com/ZynerOrg/xyter",
-            label: "GitHub",
+            href: "https://git.zyner.org/zyner/xyter/bot",
+            label: "Git",
             position: "right",
           },
         ],
@@ -107,8 +107,8 @@ const config = {
                 to: "/blog",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/ZynerOrg/xyter",
+                label: "Git",
+                href: "https://git.zyner.org/zyner/xyter/bot",
               },
             ],
           },
